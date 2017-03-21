@@ -1,0 +1,18 @@
+{
+  "name": "google-vision-api",
+  "version": "1.0.0",
+  "description": "ng-larfish google vision api for mobile hackathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "google-cloud": "0.49.0",
+    "googleapis": "18.0.0", 
+    "mime": "^1.3.4",
+    "multer": "^1.1.0"
+  },
+  "author": "Cody Case",
+  "license": "ISC"
+}
