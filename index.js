@@ -13,6 +13,8 @@ var app = express();
 
 app.get('/', function(req, res) {
 
+res.header("Access-Control-Allow-Origin", "*");
+
 // supported types: 'crops','document','faces','landmarks','labels',
 //          'logos','properties','safeSearch','similar','text'
 var types = [
